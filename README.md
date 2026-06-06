@@ -26,7 +26,7 @@ Validates that a registered user can successfully authenticate and access the pr
 
 Validates that the application displays the expected error message when invalid credentials are provided.
 
-#### Invalid Login fail
+#### Intentional Failure Example
 
 A test designed to fail intentionally allows for a simulation of a test failing in the Allure Report metrics.
 
@@ -127,13 +127,13 @@ Execute tests using QA configuration:
 
 ```bash
 npm run test:qa
-```but both are the seame because is the same url, this is just an example for differents enviroments
+```but both are the same because is the same url, this is just an example for different environments
 
 Execute tests using Staging configuration:
 
 ```bash
 npm run test:staging
-```but both are the seame because is the same url, this is just an example for differents enviroments
+```but both are the same because is the same url, this is just an example for different environments
 
 ## Test Execution by Tags
 
