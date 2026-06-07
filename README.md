@@ -6,6 +6,14 @@ This project contains automated end-to-end UI tests built using **WebdriverIO**,
 
 The goal of this project is to demonstrate automation framework design, maintainability, and test implementation for critical user workflows.
 
+## Application Under Test
+
+For this technical assessment, I selected SauceDemo (https://www.saucedemo.com/) as the application under test.
+
+## Why SauceDemo?
+
+SauceDemo is a public e-commerce testing application specifically designed for automation practice and UI testing. It provides stable test data, predictable behavior, and realistic user workflows that allow automation engineers to demonstrate framework design and testing best practices.
+
 ## Technology Stack
 
 * WebdriverIO
