@@ -17,14 +17,15 @@ export default class AssertionHelper {
     await expect(value).toBe(true);
   }
 
-  async expectUrlToContain(
+  public static async expectUrlToContain(
     expectedUrl: string
   ): Promise<void> {
     await expect(browser).toHaveUrl(
       expect.stringContaining(expectedUrl)
     );
   }
-  async expectElementToBeDisplayed(
+  
+  public static async expectElementToBeDisplayed(
     element: WebdriverIO.Element
   ): Promise<void> {
     await expect(element).toBeDisplayed();

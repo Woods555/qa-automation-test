@@ -4,7 +4,7 @@ Feature: Checkout
   So that I can complete an order successfully
 
 @regression
-@buy-single-product-positive
+@buySingleProductPositive
   Scenario: Complete checkout for a single product
     Given I am logged into SauceDemo as "standard_user"
     When I add the product "Sauce Labs Backpack" to the cart
